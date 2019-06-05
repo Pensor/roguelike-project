@@ -1,0 +1,163 @@
+/******BASE STYLES*****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Wisdom Script Regular'), url('../fonts/Wisdom\ Script\ AJ.woff') format('woff');
+    }
+
+/******GRID******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 338px;
+    float: left;
+    border: 1px solid #dddddd;
+    border-style: solid none;
+    height: 150px;
+}
+header {
+    height: 110px;
+}
+
+#top {
+    height: 470px;
+}
+
+#bottom {
+    height: 210px;
+}
+
+footer {
+    height: 80px;
+}
+
+/*******Header Section******/
+h1 {
+    font-size: 30px;
+    line-height: 23px;
+    padding: 40px 0;
+    text-transform: uppercase;
+    float: left;
+}
+
+h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 50px 0;
+}
+nav ul li a {
+    color: #77a466;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 25px;
+    font-weight: bold;
+    line-height: 23px;
+    }
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+/*******TOP SECTION******/
+
+#top {
+    margin-bottom: 30px;
+}
+
+
+#top img {
+    border: 2px solid #77a466;
+    border-style: solid none;
+    clear: both;
+}
+
+#top h2 {
+    color: #77a466;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+#top p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/******BOTTOM SECTION******/
+
+#bottom ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#bottom  a {
+    text-decoration: none;
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+}
+#bottom h3 {
+    font-size: 12px;
+    line-height: 25px;
+    padding: ;
+    margin: 0 auto;
+}
+
+
+#specials, #reviews, #contact {
+    padding: 30px;
+}
+#reviews {
+    border: 1px solid #dddddd;
+}
+
+#reviews p {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#contact ul {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/******FOOTER SECTION******/
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+footer span {
+    font-family: 'Wisdom Script Regular';
+    text-transform: lowercase;
+    color: #77a466;
+    font-weight: normal;
+}
